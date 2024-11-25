@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 .container{
     width: 70%;
     margin: 0 auto;
@@ -23,6 +27,7 @@
     max-height: 600px;
     background-image: url("/assets/Hero-bg.png");
     padding: 26px 0;
+    margin-bottom: 50px;
 }
 .banner div{
     display: flex;
@@ -45,3 +50,54 @@
 }
 
 /* bannersection ends here  */
+
+.webdev{
+    text-align: center;
+}
+
+.webinnerdev{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inspiration{
+    text-align: center;
+}
+
+.videoContainer{
+    margin: 0 auto ;
+    padding: 20px;
+    width: 860px;
+    height: 460px;
+    background-color: rgb(228, 224, 233);
+    border-radius: 10px;
+}
+
+/* ctraget section start */
+.ctarget{
+    text-align: center;
+}
+
+.targetcontainer{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: left;
+gap: 20px;
+
+}
+.targetcontainer div{
+    padding: 50px;
+}
+.html{
+    background-color: antiquewhite;
+}
+.css{
+    background-color: aqua;
+}
+.js{
+    background-color: beige;
+}
+
+
