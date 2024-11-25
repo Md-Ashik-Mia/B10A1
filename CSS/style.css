@@ -53,12 +53,29 @@ a{
 
 .webdev{
     text-align: center;
+   
 }
 
 .webinnerdev{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-align: left;
+    
+}
+
+.webinnerdev h1{
+    font-size: 30px;
+}
+
+.learnmore{
+    height: 40px;
+    width: 150px;
+    font-size: 25px;
+    background-color: transparent;
+  
+    
+
 }
 
 .inspiration{
@@ -87,6 +104,9 @@ text-align: left;
 gap: 20px;
 
 }
+
+
+
 .targetcontainer div{
     padding: 50px;
 }
@@ -100,4 +120,58 @@ gap: 20px;
     background-color: beige;
 }
 
+
+/* footerSection */
+
+.footbanner{
+     height: 500px; 
+    /* background-color: red; */
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footbanner h1{
+    font-size: 50px;
+    color: white;
+}
+
+.footbanner form .input1{
+    width:800px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.input2{
+    height: 60px;
+    width: 150px;
+    font-size: 25px;
+}
+
+.supportPara{
+    font-size: 24px;
+    color: white;
+    margin: 10px 0;
+}
+
+.links{
+    color: black;
+}
+
+.links a{
+    color: black;
+    font-size: 50px;
+}
+
+.linkcontaier{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
 
