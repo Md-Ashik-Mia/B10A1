@@ -94,6 +94,8 @@ a{
 /* ctraget section start */
 .ctarget{
     text-align: center;
+    margin-bottom: 50px ;
+    margin-top: 50px;
 }
 
 .targetcontainer{
@@ -103,6 +105,12 @@ justify-content: center;
 text-align: left;
 gap: 20px;
 
+}
+
+.spanLearn{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 
